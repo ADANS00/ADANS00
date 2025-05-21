@@ -1,16 +1,18 @@
-## Hi there 👋
+import math
+from turtle import*
 
-<!--
-**ADANS00/ADANS00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+def hearta(k):
+    return 15*math.sin(k)**3
+def heartb(k):
+    return 12*math.cos(k)-5*\
+    math.cos(2*k)-2*\
+    math.cos(3*k)-\
+    math.cos(4*k)
+speed (0)
+bgcolor("black")
+for i in range(6000):
+    goto(hearta(i)*20, heartb(i)*20)
+    for j  in range(5):
+        color("red")
+        goto (0,0)
+done( )
